@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1059797374924840885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1059797374924840884}
+  - component: {fileID: 1059797374924840883}
+  - component: {fileID: 1059797374924840882}
+  m_Layer: 8
+  m_Name: TerrainManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1059797374924840884
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059797374924840885}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.846283, y: 173.56361, z: 192.15686}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1059797374924840883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059797374924840885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c389908334e10044ca0d8a66bcb146f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrainB: {fileID: 0}
+  terrainT: {fileID: 0}
+  ymaxB: 25
+  ymaxT: 60
+  houseTree:
+  - {fileID: 9133277490861636282, guid: 6723f1f1a3a572b4eb85dd44e84c9f4f, type: 3}
+  - {fileID: 9133277490861636282, guid: 83c6beaa37f424d458ee676a7b949e7c, type: 3}
+  - {fileID: 9133277490861636282, guid: f0ef6013a95324b42b05c73c6636613d, type: 3}
+  numHouseTree: 5
+  numSecondHouseTree: 5
+  houseTreeRadius: 40
+  rocks:
+  - {fileID: 4718127086587442176, guid: 2e5af936aa13e5d4f90ab001f2e46073, type: 3}
+  numRock: 100
+  rockRadius: 6
+  pineTrees:
+  - {fileID: 2403485833648249994, guid: 8b7c234d5b3311c4eb92a23525776f59, type: 3}
+  - {fileID: 2403485833648249994, guid: 3bbbe5d4fdfe22045a018598518634ff, type: 3}
+  numPineTree: 50
+  pineTreeRadius: 6
+  mushrooms:
+  - {fileID: 4335505643418394089, guid: 1a82ed23f7a35824c9cc44c5a05492bd, type: 3}
+  - {fileID: 4335505643418394089, guid: dc1fc95123a9dc040b8ccf05bd60c789, type: 3}
+  - {fileID: 4335505643418394089, guid: 828194d88f24d9f4fab838da1e98bc43, type: 3}
+  - {fileID: 4335505643418394089, guid: 0327c8d0c5205b746aaf8f21a274be6a, type: 3}
+  numMushroom: 3
+  gems:
+  - {fileID: 4197442603760161721, guid: caaba37eb7636bd4faaa5a444d6d3f0f, type: 3}
+  - {fileID: 6064651959315177745, guid: 710060ec1aa4b0946b22d09b16189e7b, type: 3}
+  - {fileID: 6926293682985709366, guid: 783702a98c6b829458cf1d51df6f0770, type: 3}
+  - {fileID: 3369344425658721507, guid: cda951315bdfb674c9c3133ef8fc8692, type: 3}
+  - {fileID: 4335505643418394089, guid: 1a82ed23f7a35824c9cc44c5a05492bd, type: 3}
+  - {fileID: 4335505643418394089, guid: dc1fc95123a9dc040b8ccf05bd60c789, type: 3}
+  - {fileID: 4335505643418394089, guid: 828194d88f24d9f4fab838da1e98bc43, type: 3}
+  - {fileID: 4335505643418394089, guid: 0327c8d0c5205b746aaf8f21a274be6a, type: 3}
+  numGems: 3
+  grassA:
+  - {fileID: 8926450499713220027, guid: 61a237616bc22f24182fb3a1c41fb89e, type: 3}
+  numGrassA: 750
+  numSecondGrassA: 5
+  grassARadius: 8
+  stalac:
+  - {fileID: 8785854008194173270, guid: a50c5a8698fc1834a813e56ce9860485, type: 3}
+  numStalac: 500
+--- !u!114 &1059797374924840882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059797374924840885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: 1283347d98b95924fa188951245f59cb, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
