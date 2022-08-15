@@ -21,8 +21,12 @@ public class SpecCamMovement : MonoBehaviour
     void Update()
     {
         ArrowInputs();
-        MouseInputs();
         Cursor.visible = mouse;
+
+        if(mouse == false)
+        {
+            MouseInputs();
+        }
     }
 
     private void ArrowInputs()

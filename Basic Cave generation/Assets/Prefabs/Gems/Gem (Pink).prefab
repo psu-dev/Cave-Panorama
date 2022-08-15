@@ -259,7 +259,7 @@ GameObject:
   - component: {fileID: 1113666197917879452}
   m_Layer: 8
   m_Name: Gem (Pink)
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

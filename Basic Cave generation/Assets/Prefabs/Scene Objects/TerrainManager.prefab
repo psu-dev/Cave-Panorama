@@ -52,42 +52,62 @@ MonoBehaviour:
   - {fileID: 9133277490861636282, guid: 6723f1f1a3a572b4eb85dd44e84c9f4f, type: 3}
   - {fileID: 9133277490861636282, guid: 83c6beaa37f424d458ee676a7b949e7c, type: 3}
   - {fileID: 9133277490861636282, guid: f0ef6013a95324b42b05c73c6636613d, type: 3}
+  houseTreeTertiary:
+  - {fileID: 3369344425658721507, guid: cda951315bdfb674c9c3133ef8fc8692, type: 3}
+  - {fileID: 4478800272295898001, guid: 1106125aba307044eb91db2ba3d7525b, type: 3}
+  - {fileID: 4478800272295898001, guid: 6f40599b3c100d44f90b2e242339b995, type: 3}
+  - {fileID: 4197442603760161721, guid: caaba37eb7636bd4faaa5a444d6d3f0f, type: 3}
+  - {fileID: 6064651959315177745, guid: 710060ec1aa4b0946b22d09b16189e7b, type: 3}
+  - {fileID: 6926293682985709366, guid: 783702a98c6b829458cf1d51df6f0770, type: 3}
   numHouseTree: 5
-  numSecondHouseTree: 5
-  houseTreeRadius: 40
-  rocks:
+  numHouseTreeSecondary: 05000000060000000700000008000000
+  numHouseTreeTertiary: 10
+  houseTreeSpawnRadius: 1e00000023000000280000002d00000032000000
+  houseTreeCheckRadius: 2.5
+  rock:
   - {fileID: 4718127086587442176, guid: 2e5af936aa13e5d4f90ab001f2e46073, type: 3}
-  numRock: 100
-  rockRadius: 6
-  pineTrees:
-  - {fileID: 2403485833648249994, guid: 8b7c234d5b3311c4eb92a23525776f59, type: 3}
-  - {fileID: 2403485833648249994, guid: 3bbbe5d4fdfe22045a018598518634ff, type: 3}
-  numPineTree: 50
-  pineTreeRadius: 6
-  mushrooms:
+  rockSecondary:
   - {fileID: 4335505643418394089, guid: 1a82ed23f7a35824c9cc44c5a05492bd, type: 3}
   - {fileID: 4335505643418394089, guid: dc1fc95123a9dc040b8ccf05bd60c789, type: 3}
   - {fileID: 4335505643418394089, guid: 828194d88f24d9f4fab838da1e98bc43, type: 3}
   - {fileID: 4335505643418394089, guid: 0327c8d0c5205b746aaf8f21a274be6a, type: 3}
-  numMushroom: 3
-  gems:
   - {fileID: 4197442603760161721, guid: caaba37eb7636bd4faaa5a444d6d3f0f, type: 3}
   - {fileID: 6064651959315177745, guid: 710060ec1aa4b0946b22d09b16189e7b, type: 3}
   - {fileID: 6926293682985709366, guid: 783702a98c6b829458cf1d51df6f0770, type: 3}
   - {fileID: 3369344425658721507, guid: cda951315bdfb674c9c3133ef8fc8692, type: 3}
+  numRock: 120
+  numRockSecondary: 4
+  rockSpawnRadius: 8
+  rockCheckRadius: 2
+  pineTree:
+  - {fileID: 2403485833648249994, guid: 8b7c234d5b3311c4eb92a23525776f59, type: 3}
+  - {fileID: 2403485833648249994, guid: 3bbbe5d4fdfe22045a018598518634ff, type: 3}
+  pineTreeSecondary:
   - {fileID: 4335505643418394089, guid: 1a82ed23f7a35824c9cc44c5a05492bd, type: 3}
   - {fileID: 4335505643418394089, guid: dc1fc95123a9dc040b8ccf05bd60c789, type: 3}
   - {fileID: 4335505643418394089, guid: 828194d88f24d9f4fab838da1e98bc43, type: 3}
   - {fileID: 4335505643418394089, guid: 0327c8d0c5205b746aaf8f21a274be6a, type: 3}
-  numGems: 3
-  grassA:
+  - {fileID: 4478800272295898001, guid: 1106125aba307044eb91db2ba3d7525b, type: 3}
+  - {fileID: 4478800272295898001, guid: 6f40599b3c100d44f90b2e242339b995, type: 3}
+  numPineTree: 80
+  numPineTreeSecondary: 5
+  pineTreeSpawnRadius: 10
+  pineTreeCheckRadius: 2
+  grass:
   - {fileID: 8926450499713220027, guid: 61a237616bc22f24182fb3a1c41fb89e, type: 3}
-  numGrassA: 750
-  numSecondGrassA: 5
-  grassARadius: 8
+  numGrass: 1000
+  numSecondGrass: 5
+  grassSpawnRadius: 6
+  grassCheckRadius: 1
+  door: {fileID: 6756902464820604739, guid: 797f2d3758bbe03449ee10cafee45004, type: 3}
+  numDoor: 6
+  y: 26
   stalac:
   - {fileID: 8785854008194173270, guid: a50c5a8698fc1834a813e56ce9860485, type: 3}
-  numStalac: 500
+  numStalac: 300
+  numStalacSecondary: 3
+  stalacSpawnRadius: 8
+  stalacCheckRadius: 3
 --- !u!114 &1059797374924840882
 MonoBehaviour:
   m_ObjectHideFlags: 0
